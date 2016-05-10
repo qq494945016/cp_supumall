@@ -1,0 +1,161 @@
+@charset "utf-8";
+a {
+    color: #666;
+    text-decoration: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.wrap_1200 {
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+}
+.myposition {
+    padding: 5px 6px;
+    text-align: left;
+    color: #666;
+    background: #FFF;
+    font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light", "微软雅黑", "宋体", Helvetica-Black-SemiBold, Tahoma, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+}
+.myposition a {
+    color: #666;
+    text-decoration: none;
+}
+
+.maininfo{
+    overflow: hidden;
+}
+.main {
+    background-color: #f6f6f6;
+}
+.good_d_goodblock {
+    padding: 10px;
+}
+.spec-preview {
+    width: 420px;
+    height: 420px;
+    border: 1px solid #e6e6e6;
+}
+.spec-scroll {
+    clear: both;
+    margin-top: 10px;
+    width: 422px;
+}
+.d_pd {
+    padding: 5px 15px;
+}
+.jqzoom {
+    float: left;
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: relative;
+    padding: 0px;
+    cursor: crosshair;
+    margin: 0px;
+    display: block;
+    text-align: center;
+}
+.jqzoom img {
+    width: 100%;
+    height: 100%;
+}
+.spec-scroll .prev, .spec-scroll .next {
+    display: block;
+    width: 13px;
+    height: 25px;
+    margin-top: 21px;
+    cursor: pointer;
+}
+.spec-scroll .prev, .spec-scroll .next {
+    background: url("../img/index.png") no-repeat;
+}
+.spec-scroll .prev {
+    float: left;
+    margin-right: 2px;
+    background-position: -100px -256px;
+}
+.spec-scroll .next {
+    float: right;
+    background-position: -122px -256px;
+}
+.spec-scroll .items {
+    float: left;
+    position: relative;
+    width: 385px;
+    height: 66px;
+    overflow: hidden;
+}
+.spec-scroll .items ul {
+    position: absolute;
+    width: 999999px;
+    height: 66px;
+}
+.spec-scroll .items ul li {
+    float: left;
+    width: 78px;
+    text-align: center;
+}
+.spec-scroll .items ul li img {
+    border: 1px solid #e6e6e6;
+    padding: 2px;
+    width: 60px;
+    height: 60px;
+}
+.good_d_mid {
+    margin-left: 25px;
+    width: 730px;
+    font-size: 13px;
+}
+.goods_from {
+    height: 50px;
+}
+.goods_from .from {
+    font-size: 18px;
+    color: #c4c4c4;
+    line-height: 50px;
+    float: left;
+}
+.goods_from .from img {
+    vertical-align: middle;
+}
+.ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.good_d_des {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.goods_tips {
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,125 @@
+@charset "utf-8";
+.banner{
+    height: 667px;
+    background: #F269A0 url("../img/baicai_banner1.jpg") no-repeat center top;
+}
+.wrap{
+    background: #FFFFFF;
+}
+.main{
+    width: 1100px;
+    overflow: hidden;
+    margin: 0px auto;
+}
+.goods {
+    float: left;
+}
+.goods_content{
+    float: left;
+    width: 1100px;
+    height: auto;
+}
+.goods li {
+    display: list-item;
+    float: left;
+    width: 218px;
+    /* height: 328px; */
+    height: 325px;
+    border: 1px solid #CCCCCC;
+    margin: 26px;
+}
+.goods li a {
+    display: block;
+    background-color: #F88CB7;
+    width: 210px;
+    /* height: 320px; */
+    height: 317px;
+    padding: 4px;
+    text-decoration: none;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.gdbox {
+    width: 210px;
+    /* height: 280px; */
+    height: 300px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+.gdimg {
+    width: 210px;
+    height: 210px;
+    position: relative;
+}
+.gdimg img {
+    max-width: 100%;
+}
+.price_spread {
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.spread {
+    width: 42px;
+    position: absolute;
+    top: 15px;
+    right: 19px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+.spread_money {
+    display: block;
+    width: 42px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.money_amount {
+    font-style: normal;
+}
+.gdes {
+    border-top: 1px dashed #CCCCCC;
+    color: #333333;
+    width: 200px;
+    line-height: 20px;
+    height: 40px;
+    padding: 5px 5px 0 5px;
+    overflow: hidden;
+    margin-top: 22px;
+    background-color: #FFFFFF;
+}
+.gdprice {
+    display: inline-block;
+    border-top: 1px dashed #DDDDDD;
+    padding: 4px;
+    width: 202px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    z-index: 30;
+    text-align: left;
+}
+.supuy_price {
+    color: #CB0101;
+}
+.gdprice i {
+    color: #CB0101;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+}
+.clear {
+    clear: both;
+}
+
+
+
+
+
+
+
+

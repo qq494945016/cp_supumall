@@ -1,0 +1,289 @@
+@charset "utf-8";
+.header2_wrap{
+    height: 63px;
+    padding: 20px 0;
+    background: #f2f2f2;
+}
+.header2{
+    width:1200px;
+    height:63px;
+    margin: 0 auto;
+}
+.login_main{
+    width: 100%;
+    background-color: #e5004b;
+    background: url("../img/login-bg.jpg") center center;
+    overflow: hidden;
+    height: 480px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.wrap_1200{
+    padding: 46px 0;
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+.login_box_wrap{
+    background: #fff;
+    width: 340px;
+    height: 390px;
+    position: absolute;
+    top: 46px;
+    right: 46px;
+    border: 1px solid #dbdbdb;
+
+}
+.login_box{
+
+}
+.logo{
+    float: left;
+}
+.login_character{
+    width: 140px;
+    height: 53px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size: 28px;
+    line-height: 50px;
+    color: #333333;
+    border-left: 1px solid #dbdbdb;
+    float: left;
+    font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light",
+    "微软雅黑", "宋体", Helvetica-Black-SemiBold, Tahoma, Arial, sans-serif;
+}
+.reg {
+    background: #fff;
+    width: 340px;
+    height: 390px;
+    position: absolute;
+    top: 46px;
+    right: 46px;
+    border: 1px solid #dbdbdb;
+    display: none;
+}
+.login_header{
+    margin: 25px 22px 5px 22px;
+    background: #FFFFFF;
+}
+.login_header span{
+    font-size: 18px;
+    color: #686565;
+    font-weight: 700;
+    font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light", "微软雅黑", "宋体",
+    Helvetica-Black-SemiBold, Tahoma, Arial, sans-serif;
+}
+.login_gray{
+    font-size: 12px;
+    font-weight: normal;
+    float: right;
+    color: #999999;
+}
+.login_input_size{
+    display: block;
+    width: 231px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    background: #f9f9f9;
+    padding: 0 20px 0 43px;
+    line-height: 40px;
+    float: left;
+    font-size: 13px;
+    color: #666;
+}
+.input_icon {
+    padding: 8px 20px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #f9f9f9;
+    white-space: nowrap;
+    vertical-align: middle;
+    float: left;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
+.account_icon {
+    background: url("../img/login_icon.png") no-repeat;
+    background-position: 14px -113px;
+}
+.code_input_size {
+    display: block;
+    width: 112px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    padding: 0 20px 0 43px;
+    float: left;
+    color: #666;
+    line-height: 40px;
+    background: #f9f9f9;
+}
+.btn_getcode {
+    padding: 12px 22px;
+    border: none;
+    background-color: #e5004b;
+    color: #ffffff;
+    cursor: pointer;
+}
+.deal {
+    margin: 10px 30px 10px 30px;
+    line-height: 12px;
+}
+.reg_submit {
+    display: block;
+    width: 295px;
+    background: #e5004b;
+    border: none;
+    margin: 0 22px 0 22px;
+    cursor: pointer;
+    padding: 4px 10px;
+    text-align: center;
+}
+.reg_submit span {
+    color: #FFF;
+    line-height: 36px;
+    font-size: 20px;
+}
+
+.login_account_total {
+    margin: 10px 22px 0 22px;
+    position: relative;
+}
+
+.login_password_total {
+    margin: 10px 22px 0 22px;
+    position: relative;
+}
+.code_total {
+    margin: 10px 22px 0 22px;
+    position: relative;
+}
+.btn_getcode {
+    padding: 12px 22px;
+    border: none;
+    background-color: #e5004b;
+    color: #ffffff;
+    cursor: pointer;
+}
+.login_error_section {
+    height: 22px;
+    line-height: 22px;
+}
+.error_tips {
+    margin: 0 22px 0 22px;
+    color: #e5004b;
+    line-height: 12px;
+    display: none;
+}
+.error_tips i {
+    width: 22px;
+    height: 20px;
+    display: inline-block;
+    background: url("../img/login_icon.png") no-repeat;
+    background-position: 0px -240px;
+    position: relative;
+    top: 2px;
+    left: 0;
+}
+.input_icon {
+    padding: 8px 20px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #f9f9f9;
+    white-space: nowrap;
+    vertical-align: middle;
+    float: left;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
+.randomcode_icon {
+    background: url("../img/login_icon.png") no-repeat;
+    background-position: 14px -399px;
+}
+.code_total {
+    margin: 10px 22px 0 22px;
+    position: relative;
+}
+.password_icon {
+    background: url("../img/login_icon.png") no-repeat;
+    background-position: 14px -169px;
+}
+.code_icon {
+    background: url("../img/login_icon.png") no-repeat;
+    background-position: 14px -293px;
+}
+
+
+
+
+
+
+.login_checkbox_all {
+    margin: 10px 24px 10px 24px;
+    line-height: 22px;
+    height: 22px;
+}
+.login_checkbox {
+    color: #777777;
+}
+.fl {
+    float: left;
+}
+.auto_login {
+    margin-left: 30px;
+}
+.login_checkbox {
+    color: #777777;
+}
+.login_forget {
+    /* padding-top: 11px; */
+    float: right;
+    /* margin-top: 16px; */
+}
+.login_forget_pas {
+    color: #9F9F9F;
+    font-weight: normal;
+}
+
+
+
+
+
+
+.supuy_info_box {
+    height: 132px;
+    background: #f3f3f3;
+    text-align: center;
+}
+.supuy_info_box div{
+    color:#666;
+}
+.supuy_info{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.supuy_info ul{
+}
+.supuy_info ul li{
+    width: 68px;
+    line-height: 15px;
+    float: left;
+    border-right: 1px solid #666;
+    text-align: center;
+}
+.supuy_info ul li a{
+    color: #666;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="../css/common/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/common/footer3.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/common/header3.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="header"></div>
+<div id="footer"></div>
+<script type="text/javascript" src="../lib/jquery-1.8.3.js"></script>
+<script>
+    //$("#header").load("common/header.html")
+    //同步加载公用头部
+    $.ajax({
+        url: "common/header3.html",
+        async: false,
+        type: "get",
+        dataType: "html",
+        async: false,
+        success: function (msg) {
+            $("#header").html(msg);
+        }
+    })
+    //同步加载公用尾部
+    $.ajax({
+        url: "common/footer3.html",
+        async: false,
+        type: "get",
+        dataType: "html",
+        async: false,
+        success: function (msg) {
+            $("#footer").html(msg);
+        }
+    })
+</script>
+</body>
+</html>

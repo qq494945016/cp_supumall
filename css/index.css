@@ -1,0 +1,617 @@
+@charset "utf-8";
+/*-------------------------------------------轮播图------------------------------------------*/
+.lunbo {
+    width: 100%;
+    height: 447px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto 20px;
+}
+
+#lunbo_leftbtn {
+    width: 40px;
+    line-height: 50px;
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 224px;
+    font-size: 24px;
+    color: white;
+    background: rgba(0, 0, 0, .3);
+    border-radius: 4px;
+    text-align: center;
+    margin-left: -380px;
+}
+
+#lunbo_rightbtn {
+    width: 40px;
+    line-height: 50px;
+    display: none;
+    position: absolute;
+    right: 50%;
+    top: 224px;
+    font-size: 24px;
+    color: white;
+    background: rgba(0, 0, 0, .3);
+    border-radius: 4px;
+    text-align: center;
+    margin-right: -390px;
+}
+
+.lunbo_leftbtn:hover, .lunbo_rightbtn:hover {
+    background: rgba(0, 0, 0, .5);
+}
+
+#lunbo_bottom_btn {
+    position: absolute;
+    left: 50%;
+    top: 96%;
+    margin-left: -60px;
+}
+
+#lunbo_bottom_btn li {
+    float: left;
+    width: 50px;
+    height: 10px;
+    background: #000;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#lunbo_bottom_btn .bottom_btn_active {
+    background: #aaa;
+}
+
+.lunbo ul {
+    position: relative;
+    width: 3840px;
+    height: 447px;
+}
+
+.lunbo ul li {
+    float: left;
+    width: 1920px;
+    height: 447px;
+}
+
+/*濡傛灉绐楀彛姣�1920杩樺ぇ 璁╁叾灞呬腑*/
+.lunbo ul li a img {
+    position: relative;
+    height: 100%;
+    left: 50%;
+    width: 1920px;
+    margin-left: -960px;
+}
+
+/*-------------------------------------------闹钟标题------------------------------------------*/
+
+.home_title_wrap {
+    height: 32px;
+}
+
+.home_title_box {
+    width: 1200px;
+    height: 32px;
+    margin: 0 auto;
+}
+
+.home_title {
+    padding-left: 31px;
+    float: left;
+    height: 32px;
+    background: url("../img/index.png") no-repeat -100px 5px;
+}
+
+.lijiqg {
+    float: right;
+    margin-right: 20px;
+}
+
+.lijiqg a {
+    color: #e5004a;
+    font-size: 14px;
+}
+
+.home_title_h1 {
+    float: left;
+    line-height: 32px;
+    height: 32px;
+    font-size: 24px;
+    font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light", "微软雅黑", "宋体", Helvetica-Black-SemiBold, Tahoma, Arial, sans-serif;
+}
+
+.home_title_span {
+    float: left;
+    width: 196px;
+    height: 18px;
+    color: #aaaaaa;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+/*-------------------------------------------整点抢购 进度------------------------------------------*/
+
+.zhengdian_jindu {
+    width: 1200px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+.zhengdian_sun {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 26px;
+}
+
+.zhengdian_moon {
+    width: 37px;
+    height: 50px;
+    float: left;
+    margin-top: 26px;
+}
+
+.zhengdian_list {
+    width: 1100px;
+    height: 110px;
+    float: left;
+}
+
+.zhengdian_list ul li {
+    float: left;
+}
+
+.jindu_box {
+    width: 137px;
+    height: 110px;
+}
+.fengqiang_wrap{
+    width: 137px;
+    height: 34px;
+}
+.fengqiang {
+    display: none;
+    float: left;
+    width: 137px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background: url("../img/tip_bg.png") no-repeat center;
+}
+
+.fengqiang span {
+    float: left;
+    width: 137px;
+    line-height: 34px;
+    color: white;
+    text-align: center;
+}
+
+.jindu_box2 {
+    width: 137px;
+}
+
+.jindu_line {
+    width: 62px;
+    height: 1px;
+    background: #ededed;
+    float: left;
+    margin-top: 14px;
+}
+
+.jindu_point {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    border: 1px solid #ffb033;
+    float: left;
+    margin-top: 8px;
+}
+
+.jindu_point i {
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #ffb033;
+    margin: 3px;
+}
+
+.jindu_date span {
+    float: left;
+    width: 137px;
+    line-height: 24px;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+}
+
+.jindu_runtime span {
+    display: none;
+    float: left;
+    width: 137px;
+    line-height: 24px;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*-------------------------------------------整点抢购 商品展示------------------------------------------*/
+
+.zhengdian_shangpin {
+    width: 1200px;
+    height: 368px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bottom_rec_pre {
+    width: 18px;
+    height: 36px;
+    position: absolute;
+    left: 0;
+    top: 36%;
+    cursor: pointer;
+    background: url("../img/index.png") no-repeat;
+    background-position: -100px -195px;
+}
+
+.bottom_rec_next {
+    width: 18px;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: 36%;
+    cursor: pointer;
+    background: url("../img/index.png") no-repeat;
+    background-position: -100px -158px;
+}
+
+.zhengdian_shangpin ul {
+    position: absolute;
+    left: 18px;
+}
+
+.zhengdian_shangpin ul li {
+    float: left;
+    width: 230px;
+    height: 313px;
+}
+.shangpin_box{
+    position: relative;
+}
+.shangpin_imgbox {
+    width: 219px;
+    height: 219px;
+}
+.sprice_list_roundhover{
+    position: absolute;
+    top: 49px;
+    right: 39px;
+    width: 94px;
+    height: 82px;
+    z-index: 105;
+    padding: 30px 24px;
+    background: url("../img/index.png") no-repeat;
+    background-position: -144px -1008px;
+    opacity: 1;
+}
+.sprice_list_roundhover2{
+    position: absolute;
+    top: 49px;
+    right: 39px;
+    width: 94px;
+    height: 82px;
+    z-index: 105;
+    padding: 30px 24px;
+    background: url("../img/index.png") no-repeat;
+    background-position: 0 -1008px;
+    opacity: 1;
+}
+.sprice_buybtn{
+    position: absolute;
+    top: 58px;
+    right: 34px;
+    color: #FFFFFF;
+    display: block;
+    padding: 4px 10px;
+    text-align: center;
+    background-color: #e5004b;
+    font-size: 14px;
+}
+.shangpin_link {
+    color: #666;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.shangpin_imgbox img {
+    width: 100%;
+    height: 100%;
+}
+
+.shangpin_jiage {
+    font-size: 18px;
+    color: #e5004b;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.shangpin_yuanjia {
+    text-decoration: line-through;
+    margin: 0 0 0 3px;
+    color: #a2a2a2;
+}
+
+/*-------------------------------------------限时特卖------------------------------------------*/
+
+.xianshi {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.xianshi_zhanshi {
+    width: 1200px;
+    height: 1096px;
+    margin: 0 auto;
+}
+
+.xianshi_box {
+    width: 588px;
+    height: 234px;
+    margin: 10px 0;
+}
+
+.xianshi_zhanshi ul li {
+    float: left;
+    margin: 0 0.5% 20px 0.5%;
+}
+
+/*-------------------------------------------home区------------------------------------------*/
+
+.home_floor {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.floor_box_content {
+    width: 1200px;
+    height: 446px;
+    margin-bottom: 20px;
+    border-top: 4px solid #c388b3;
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-top-color: rgb(195, 136, 179);
+    box-shadow: 0 0 6px #e8e7db;
+}
+
+.home_floor_box_l {
+    float: left;
+    width: 200px;
+    height: 446px;
+}
+
+.home_box_title {
+    position: relative;
+    width: 200px;
+    height: 58px;
+}
+
+.home_box_title span {
+    line-height: 58px;
+    position: absolute;
+    left: 50px;
+    font-size: 26px;
+    color: white;
+    font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light", "微软雅黑", "宋体", Helvetica-Black-SemiBold, Tahoma, Arial, sans-serif;
+}
+
+.home_box_nav {
+    width: 200px;
+    height: 190px;
+}
+
+.home_box_nav ul li {
+    width: 100px;
+    line-height: 38px;
+    float: left;
+    text-align: center;
+}
+
+.home_box_nav ul li a {
+    color: #000;
+}
+
+.home_box_lunbo {
+    width: 200px;
+    height: 174px;
+}
+
+.home_box_lunbo_wrap {
+    width: 200px;
+    height: 174px;
+    position: relative;
+    overflow: hidden;
+}
+
+#home_box_lunbo_prev {
+    width: 30px;
+    line-height: 50px;
+    position: absolute;
+    left: 0;
+    top: 67px;
+    font-size: 24px;
+    color: white;
+    background: rgba(0, 0, 0, .1);
+    text-align: center;
+}
+
+#home_box_lunbo_next {
+    width: 30px;
+    line-height: 50px;
+    position: absolute;
+    right: 0;
+    top: 67px;
+    font-size: 24px;
+    color: white;
+    background: rgba(0, 0, 0, .1);
+    text-align: center;
+}
+
+.home_box_lunbo_list {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 600px;
+    height: 174px;
+}
+
+.home_box_lunbo_list li {
+    float: left;
+}
+
+.home_box_lunbo_threelogo ul li a {
+    display: block;
+    width: 200px;
+    line-height: 48px;
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.home_box_lunbo_threelogo ul li a img {
+    width: 100px;
+    height: 48px;
+}
+
+.home_floor_box_m {
+    float: left;
+    width: 400px;
+    height: 446px;
+}
+
+.home_floor_box_m a img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.home_floor_box_r {
+    float: left;
+    width: 600px;
+    height: 446px;
+}
+
+.home_floor_box_r ul {
+    float: left;
+    width: 600px;
+}
+
+.home_floor_box_r ul li {
+    float: left;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.home_floor_shangpin1 {
+    width: 199px;
+    height: 254px;
+    text-align: center;
+}
+
+.home_floor_shangpin1 img {
+    width: 165px;
+    height: 165px;
+}
+
+.home_floor_shangpin2 {
+    width: 199px;
+    height: 190px;
+    text-align: center;
+}
+
+.home_floor_shangpin2 img {
+    width: 102px;
+    height: 102px;
+}
+
+.floor_gooddes1 {
+    width: 190px;
+    height: 30px;
+    float: left;
+    color: #333333;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 8px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light", "微软雅黑", "宋体", Helvetica-Black-SemiBold, Tahoma, Arial, sans-serif;
+}
+
+.floor_gooddes2 {
+    width: 190px;
+    height: 22px;
+    float: left;
+    color: #e5004b;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light", "微软雅黑", "宋体", Helvetica-Black-SemiBold, Tahoma, Arial, sans-serif;
+}
+
+/*-------------------------------------------生活汇------------------------------------------*/
+
+.shenghuohui {
+    width: 1200px;
+    height: 242px;
+}
+
+.shenghuohui_title_wrap {
+    padding: 10px 15px;
+    line-height: 32px;
+    overflow: hidden;
+}
+
+.shenghuohui_list {
+    margin-top: 30px;
+}
+
+.shenghuohui_list li {
+    float: left;
+    width: 289px;
+    height: 125px;
+    margin-right: 11px;
+}
+
+.shenghuohui_list_lastli {
+    float: left;
+    width: 289px;
+    height: 125px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

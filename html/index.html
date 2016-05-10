@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link href="../css/common/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/common/footer.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/common/header.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="header"></div>
+<!--弹出层 多个轮播图-->
+<!--轮播图-->
+<div class="lunbo" id="lunbo">
+    <ul id="lunbo_list">
+        <li><a href="javascript:;"><img src="../img/banner1.jpg"/></a></li>
+        <li><a href="javascript:;"><img src="../img/banner2.jpg"/></a></li>
+    </ul>
+    <!--下方按钮-->
+    <ul id="lunbo_bottom_btn">
+        <li class="bottom_btn_active"></li>
+        <li></li>
+    </ul>
+    <!--两个按钮-->
+    <a id="lunbo_leftbtn">&lt</a>
+    <a id="lunbo_rightbtn">&gt</a>
+</div>
+<!--整点抢购区域-->
+<!--标题条-->
+<div class="home_title_wrap">
+    <div class="home_title_box">
+        <div class="home_title">
+            <span class="home_title_h1">整点抢购</span>
+            <span class="home_title_span">当日整点抢购，全网最低</span>
+        </div>
+        <div class="lijiqg">
+            <a href="javascript:;">立即抢购&gt;</a>
+        </div>
+    </div>
+</div>
+<!--抢购时间进度-->
+<div class="zhengdian_jindu">
+    <div class="zhengdian_sun"><img src="../img/sun.png"/></div>
+    <div class="zhengdian_list" id="zhengdian_list">
+        <ul>
+            <li>
+                <div class="jindu_box">
+                    <div class="fengqiang_wrap"><span class="fengqiang">8:00 疯抢中</span></div>
+                    <div class="jindu_box2">
+                        <div class="jindu_line"></div>
+                        <div class="jindu_point"><i></i></div>
+                        <div class="jindu_line"></div>
+                    </div>
+                    <div class="jindu_date"><span>8:00</span></div>
+                    <div class="jindu_runtime"><span></span></div>
+                </div>
+            </li>
+            <li>
+                <div class="jindu_box">
+                    <div class="fengqiang_wrap"><span class="fengqiang">10:00 疯抢中</span></div>
+                    <div class="jindu_box2">
+                        <div class="jindu_line"></div>
+                        <div class="jindu_point"><i></i></div>
+                        <div class="jindu_line"></div>
+                    </div>
+                    <div class="jindu_date"><span>10:00</span></div>
+                    <div class="jindu_runtime"><span></span></div>
+                </div>
+            </li>
+            <li>
+                <div class="jindu_box">
+                    <div class="fengqiang_wrap"><span class="fengqiang">12:00 疯抢中</span></div>
+                    <div class="jindu_box2">
+                        <div class="jindu_line"></div>
+                        <div class="jindu_point"><i></i></div>
+                        <div class="jindu_line"></div>
+                    </div>
+                    <div class="jindu_date"><span>12:00</span></div>
+                    <div class="jindu_runtime"><span></span></div>
+                </div>
+            </li>
+            <li>
+                <div class="jindu_box">
+                    <div class="fengqiang_wrap"><span class="fengqiang">14:00 疯抢中</span></div>
+                    <div class="jindu_box2">
+                        <div class="jindu_line"></div>
+                        <div class="jindu_point"><i></i></div>
+                        <div class="jindu_line"></div>
+                    </div>
+                    <div class="jindu_date"><span>14:00</span></div>
+                    <div class="jindu_runtime"><span></span></div>
+                </div>
+            </li>
+            <li>
+                <div class="jindu_box">
+                    <div class="fengqiang_wrap"><span class="fengqiang">16:00 疯抢中</span></div>
+                    <div class="jindu_box2">
+                        <div class="jindu_line"></div>
+                        <div class="jindu_point"><i></i></div>
+                        <div class="jindu_line"></div>
+                    </div>
+                    <div class="jindu_date"><span>16:00</span></div>
+                    <div class="jindu_runtime"><span></span></div>
+                </div>
+            </li>
+            <li>
+                <div class="jindu_box">
+                    <div class="fengqiang_wrap"><span class="fengqiang">18:00 疯抢中</span></div>
+                    <div class="jindu_box2">
+                        <div class="jindu_line"></div>
+                        <div class="jindu_point"><i></i></div>
+                        <div class="jindu_line"></div>
+                    </div>
+                    <div class="jindu_date"><span>18:00</span></div>
+                    <div class="jindu_runtime"><span></span></div>
+                </div>
+            </li>
+            <li>
+                <div class="jindu_box">
+                    <div class="fengqiang_wrap"><span class="fengqiang">20:00 疯抢中</span></div>
+                    <div class="jindu_box2">
+                        <div class="jindu_line"></div>
+                        <div class="jindu_point"><i></i></div>
+                        <div class="jindu_line"></div>
+                    </div>
+                    <div class="jindu_date"><span>20:00</span></div>
+                    <div class="jindu_runtime"><span></span></div>
+                </div>
+            </li>
+            <li>
+                <div class="jindu_box">
+                    <div class="fengqiang_wrap"><span class="fengqiang">22:00 疯抢中</span></div>
+                    <div class="jindu_box2">
+                        <div class="jindu_line"></div>
+                        <div class="jindu_point"><i></i></div>
+                        <div class="jindu_line"></div>
+                    </div>
+                    <div class="jindu_date"><span>22:00</span></div>
+                    <div class="jindu_runtime"><span></span></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="zhengdian_moon"><img src="../img/moon.png"/></div>
+</div>
+<!--抢购商品展示-->
+<div class="zhengdian_shangpin">
+    <div class="bottom_rec_pre"></div>
+    <ul>
+        <li><a href="javascript:;">
+            <div class="shangpin_box">
+                <div class="shangpin_imgbox"><img src="../img/shangpin1.jpg"/></div>
+                <div class="sprice_list_roundhover"></div>
+                <div>
+                    <a href="javascript:;" class="shangpin_link">百乐麦 牛肉炖萝卜阶段面258g</a>
+
+                    <p class="shangpin_jiage">￥19.9</p>
+
+                    <p class="shangpin_yuanjia">￥39.8</p>
+                </div>
+            </div>
+        </a></li>
+        <li><a href="javascript:;">
+            <div class="shangpin_box">
+                <div class="shangpin_imgbox"><img src="../img/shangpin2.jpg"/></div>
+                <div class="sprice_list_roundhover2" id="sprice_list_roundhover2">
+                    <a href="javascript:;" target="_blank" id="sprice_buybtn" class="sprice_buybtn">立即抢购</a>
+                </div>
+                <div>
+                    <a href="javascript:;" class="shangpin_link">百乐麦 牛肉炖萝卜阶段面258g</a>
+
+                    <p class="shangpin_jiage">￥19.9</p>
+
+                    <p class="shangpin_yuanjia">￥39.8</p>
+                </div>
+            </div>
+        </a></li>
+        <li><a href="javascript:;">
+            <div class="shangpin_box">
+                <div class="shangpin_imgbox"><img src="../img/shangpin1.jpg"/></div>
+                <div>
+                    <a href="javascript:;" class="shangpin_link">百乐麦 牛肉炖萝卜阶段面258g</a>
+
+                    <p class="shangpin_jiage">￥19.9</p>
+
+                    <p class="shangpin_yuanjia">￥39.8</p>
+                </div>
+            </div>
+        </a></li>
+        <li><a href="javascript:;">
+            <div class="shangpin_box">
+                <div class="shangpin_imgbox"><img src="../img/shangpin2.jpg"/></div>
+                <div>
+                    <a href="javascript:;" class="shangpin_link">百乐麦 牛肉炖萝卜阶段面258g</a>
+
+                    <p class="shangpin_jiage">￥19.9</p>
+
+                    <p class="shangpin_yuanjia">￥39.8</p>
+                </div>
+            </div>
+        </a></li>
+        <li><a href="javascript:;">
+            <div class="shangpin_box">
+                <div class="shangpin_imgbox"><img src="../img/shangpin1.jpg"/></div>
+                <div>
+                    <a href="javascript:;" class="shangpin_link">百乐麦 牛肉炖萝卜阶段面258g</a>
+
+                    <p class="shangpin_jiage">￥19.9</p>
+
+                    <p class="shangpin_yuanjia">￥39.8</p>
+                </div>
+            </div>
+        </a></li>
+    </ul>
+    <div class="bottom_rec_next"></div>
+</div>
+
+<!--限时特卖-->
+<div class="xianshi">
+    <div class="home_title_box">
+        <div class="home_title">
+            <span class="home_title_h1">限时特卖</span>
+            <span class="home_title_span">当日整点抢购，全网最低</span>
+        </div>
+        <div class="lijiqg">
+            <a href="javascript:;">立即抢购&gt;</a>
+        </div>
+    </div>
+    <div class="xianshi_zhanshi">
+        <ul>
+            <li>
+                <div class="xianshi_box"><a href="javascript:;"><img src="../img/xianshi1.jpg"/></a>
+
+                    <p>还有2天18小时30分30秒结束</p></div>
+            </li>
+            <li>
+                <div class="xianshi_box"><a href="javascript:;"><img src="../img/xianshi1.jpg"/></a>
+
+                    <p>还有2天18小时30分30秒结束</p></div>
+            </li>
+            <li>
+                <div class="xianshi_box"><a href="javascript:;"><img src="../img/xianshi1.jpg"/></a>
+
+                    <p>还有2天18小时30分30秒结束</p></div>
+            </li>
+            <li>
+                <div class="xianshi_box"><a href="javascript:;"><img src="../img/xianshi1.jpg"/></a>
+
+                    <p>还有2天18小时30分30秒结束</p></div>
+            </li>
+            <li>
+                <div class="xianshi_box"><a href="javascript:;"><img src="../img/xianshi1.jpg"/></a>
+
+                    <p>还有2天18小时30分30秒结束</p></div>
+            </li>
+            <li>
+                <div class="xianshi_box"><a href="javascript:;"><img src="../img/xianshi1.jpg"/></a>
+
+                    <p>还有2天18小时30分30秒结束</p></div>
+            </li>
+            <li>
+                <div class="xianshi_box"><a href="javascript:;"><img src="../img/xianshi1.jpg"/></a>
+
+                    <p>还有2天18小时30分30秒结束</p></div>
+            </li>
+            <li>
+                <div class="xianshi_box"><a href="javascript:;"><img src="../img/xianshi1.jpg"/></a>
+
+                    <p>还有2天18小时30分30秒结束</p></div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="home_floor">
+    <!--各个专区 1F至5F-->
+    <div class="floor_box_content">
+        <div class="home_floor_box_l">
+            <div class="home_box_title"><img src="../img/floor1.png"/><span>妈妈专区</span></div>
+            <div class="home_box_nav">
+                <ul>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                </ul>
+            </div>
+            <div id="home_box_lunbo" class="home_box_lunbo">
+                <div id="home_box_lunbo_wrap" class="home_box_lunbo_wrap">
+                    <ul id="home_box_lunbo_list" class="home_box_lunbo_list">
+                        <li>
+                            <div class="home_box_lunbo_threelogo">
+                                <ul>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo1.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo1.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo1.jpg"/></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="home_box_lunbo_threelogo">
+                                <ul>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo2.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo2.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo2.jpg"/></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="home_box_lunbo_threelogo">
+                                <ul>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo3.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo3.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo3.jpg"/></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="javascript:;" id="home_box_lunbo_prev">&lt</a>
+                    <a href="javascript:;" id="home_box_lunbo_next">&gt</a>
+                </div>
+            </div>
+        </div>
+        <div class="home_floor_box_m">
+            <a href="javascript:;"><img src="../img/floor1_ban.jpg"/></a>
+        </div>
+        <div class="home_floor_box_r">
+            <ul>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin1">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin1">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin1">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+            </ul>
+            <ul>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin2">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin2">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin2">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="floor_box_content">
+        <div class="home_floor_box_l">
+            <div class="home_box_title"><img src="../img/floor1.png"/><span>妈妈专区</span></div>
+            <div class="home_box_nav">
+                <ul>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                </ul>
+            </div>
+            <div id="home_box_lunbo" class="home_box_lunbo">
+                <div id="home_box_lunbo_wrap" class="home_box_lunbo_wrap">
+                    <ul id="home_box_lunbo_list" class="home_box_lunbo_list">
+                        <li>
+                            <div class="home_box_lunbo_threelogo">
+                                <ul>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo1.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo1.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo1.jpg"/></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="home_box_lunbo_threelogo">
+                                <ul>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo2.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo2.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo2.jpg"/></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="home_box_lunbo_threelogo">
+                                <ul>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo3.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo3.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo3.jpg"/></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="javascript:;" id="home_box_lunbo_prev">&lt</a>
+                    <a href="javascript:;" id="home_box_lunbo_next">&gt</a>
+                </div>
+            </div>
+        </div>
+        <div class="home_floor_box_m">
+            <a href="javascript:;"><img src="../img/floor1_ban.jpg"/></a>
+        </div>
+        <div class="home_floor_box_r">
+            <ul>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin1">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin1">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin1">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+            </ul>
+            <ul>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin2">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin2">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin2">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="floor_box_content">
+        <div class="home_floor_box_l">
+            <div class="home_box_title"><img src="../img/floor1.png"/><span>妈妈专区</span></div>
+            <div class="home_box_nav">
+                <ul>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                </ul>
+            </div>
+            <div id="home_box_lunbo" class="home_box_lunbo">
+                <div id="home_box_lunbo_wrap" class="home_box_lunbo_wrap">
+                    <ul id="home_box_lunbo_list" class="home_box_lunbo_list">
+                        <li>
+                            <div class="home_box_lunbo_threelogo">
+                                <ul>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo1.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo1.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo1.jpg"/></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="home_box_lunbo_threelogo">
+                                <ul>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo2.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo2.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo2.jpg"/></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="home_box_lunbo_threelogo">
+                                <ul>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo3.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo3.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo3.jpg"/></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="javascript:;" id="home_box_lunbo_prev">&lt</a>
+                    <a href="javascript:;" id="home_box_lunbo_next">&gt</a>
+                </div>
+            </div>
+        </div>
+        <div class="home_floor_box_m">
+            <a href="javascript:;"><img src="../img/floor1_ban.jpg"/></a>
+        </div>
+        <div class="home_floor_box_r">
+            <ul>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin1">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin1">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin1">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+            </ul>
+            <ul>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin2">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin2">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin2">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="floor_box_content">
+        <div class="home_floor_box_l">
+            <div class="home_box_title"><img src="../img/floor1.png"/><span>妈妈专区</span></div>
+            <div class="home_box_nav">
+                <ul>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                </ul>
+            </div>
+            <div id="home_box_lunbo" class="home_box_lunbo">
+                <div id="home_box_lunbo_wrap" class="home_box_lunbo_wrap">
+                    <ul id="home_box_lunbo_list" class="home_box_lunbo_list">
+                        <li>
+                            <div class="home_box_lunbo_threelogo">
+                                <ul>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo1.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo1.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo1.jpg"/></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="home_box_lunbo_threelogo">
+                                <ul>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo2.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo2.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo2.jpg"/></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="home_box_lunbo_threelogo">
+                                <ul>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo3.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo3.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo3.jpg"/></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="javascript:;" id="home_box_lunbo_prev">&lt</a>
+                    <a href="javascript:;" id="home_box_lunbo_next">&gt</a>
+                </div>
+            </div>
+        </div>
+        <div class="home_floor_box_m">
+            <a href="javascript:;"><img src="../img/floor1_ban.jpg"/></a>
+        </div>
+        <div class="home_floor_box_r">
+            <ul>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin1">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin1">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin1">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+            </ul>
+            <ul>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin2">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin2">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin2">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="floor_box_content">
+        <div class="home_floor_box_l">
+            <div class="home_box_title"><img src="../img/floor1.png"/><span>妈妈专区</span></div>
+            <div class="home_box_nav">
+                <ul>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                    <li><a href="javascript:;">卫生护理</a></li>
+                </ul>
+            </div>
+            <div id="home_box_lunbo" class="home_box_lunbo">
+                <div id="home_box_lunbo_wrap" class="home_box_lunbo_wrap">
+                    <ul id="home_box_lunbo_list" class="home_box_lunbo_list">
+                        <li>
+                            <div class="home_box_lunbo_threelogo">
+                                <ul>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo1.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo1.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo1.jpg"/></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="home_box_lunbo_threelogo">
+                                <ul>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo2.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo2.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo2.jpg"/></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="home_box_lunbo_threelogo">
+                                <ul>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo3.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo3.jpg"/></a></li>
+                                    <li><a href="javascript:;"><img src="../img/shangpin_logo3.jpg"/></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="javascript:;" id="home_box_lunbo_prev">&lt</a>
+                    <a href="javascript:;" id="home_box_lunbo_next">&gt</a>
+                </div>
+            </div>
+        </div>
+        <div class="home_floor_box_m">
+            <a href="javascript:;"><img src="../img/floor1_ban.jpg"/></a>
+        </div>
+        <div class="home_floor_box_r">
+            <ul>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin1">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin1">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin1">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+            </ul>
+            <ul>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin2">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin2">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+                <li><a href="javascript:;">
+                    <div class="home_floor_shangpin2">
+                        <div class="floor_gooddes1">萃芙理 美妆</div>
+                        <div class="floor_gooddes2">美白 防晒 舒敏 一站搞定</div>
+                        <img src="../img/zhuanqu1.jpg"/></div>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <!--母婴生活汇-->
+    <div class="shenghuohui">
+        <div class="home_title_box">
+                <div class="home_title">
+                    <span class="home_title_h1">母婴生活汇</span>
+                    <span class="home_title_span">品牌汇集，一站购齐</span>
+                </div>
+        </div>
+        <ul class="shenghuohui_list">
+            <li><a href="javascript:;"><img src="../img/muying_qz.jpg"/> </a></li>
+            <li><a href="javascript:;"><img src="../img/muying_ye.jpg"/> </a></li>
+            <li><a href="javascript:;"><img src="../img/muying_ym.jpg"/> </a></li>
+            <li class="shenghuohui_list_lastli"><a href="javascript:;"><img src="../img/muying_bb.jpg"/> </a></li>
+        </ul>
+    </div>
+</div>
+<div id="footer"></div>
+<script type="text/javascript" src="../lib/jquery-1.8.3.js"></script>
+<script>
+    //$("#header").load("common/header.html")
+    //同步加载公用头部
+    $.ajax({
+        url: "common/header.html",
+        async: false,
+        type: "get",
+        dataType: "html",
+        async: false,
+        success: function(msg) {
+            $("#header").html(msg);
+        }
+    })
+    //同步加载公用尾部
+    $.ajax({
+        url: "common/footer.html",
+        async: false,
+        type: "get",
+        dataType: "html",
+        async: false,
+        success: function(msg) {
+            $("#footer").html(msg);
+        }
+    })
+</script>
+<script type="text/javascript" src="../js/index.js"></script>
+</body>
+</html>

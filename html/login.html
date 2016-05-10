@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <link href="../css/login.css" type="text/css" rel="stylesheet"/>
+    <link href="../css/common/base.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<!-- 登录验证未完成 -->
+<div class="header2_wrap">
+    <div class="header2">
+        <div class="logo"><a href="javascript:;"><img src="../img/logo2.jpg" width="155" height="56"></a></div>
+        <div class="login_character">欢迎登录</div>
+    </div>
+</div>
+<div class="login_main">
+    <div class="wrap_1200">
+        <div class="login_box_wrap">
+            <div class="">
+                <div class="login_header">
+                    <span>用户登录</span>
+                </div>
+                <form id="RegisterForm" method="post" action="">
+                    <div class="login_error_section">
+                        <div class="error_tips" id=""><i></i><span>邮箱或手机号格式不正确</span></div>
+                    </div>
+                    <div class="login_account_total">
+                        <div class="input_icon account_icon"></div>
+                        <input type="text" id="new_account" name="new_account" class="login_input_size"
+                               placeholder="邮箱、手机号" maxlength="50">
+                    </div>
+                    <div class="clear"></div>
+                    <div class="login_password_total">
+                        <div class="input_icon password_icon"></div>
+                        <input type="password" id="reg_password" name="reg_password" class="password login_input_size"
+                               placeholder="6-16位字符，必须包含英文字母和数字" maxlength="16">
+                        <i></i>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="login_checkbox_all">
+         <span class="login_checkbox fl">
+          <input type="checkbox" value="记住用户名" id="cbRememberUserName">&nbsp;记住用户名</span>
+        <span class="login_checkbox auto_login fl">
+         <input type="checkbox" value="自动登录" id="cbAutoLogin" checked="checked">&nbsp;自动登录</span>
+                        <span class="login_forget"> <a href="#find_password_step1" class="fancybox login_forget_pas">忘记密码了？</a></span>
+                    </div>
+                    <button id="btnRegister" class="reg_submit"><span>登  录</span></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--其他信息-->
+<div class="supuy_info_box">
+    <div class="supuy_info">
+        <ul>
+            <li><a href="javascript:;">关于我们</a></li>
+            <li><a href="javascript:;">关于我们</a></li>
+            <li><a href="javascript:;">关于我们</a></li>
+            <li><a href="javascript:;">关于我们</a></li>
+        </ul>
+    </div>
+    <div>Copyright © 速普商城 2010-2016 All Right Reseved 鲁 ICP 证 09059644 号</div>
+    <div class="zizhi">
+        <a href=""><img src="../img/cnnic.png"/></a>
+        <a href=""><img src="../img/zhizhao.png"/></a>
+    </div>
+</div>
+</body>
+</html>
