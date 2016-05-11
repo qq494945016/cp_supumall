@@ -113,7 +113,7 @@ body {
     height: auto;
     background: #FFFFFF;
     padding: 10px;
-    margin: 0 10px 10px 0;
+    margin: 0 14px 10px 0;
     transition: 0.4s;
     -webkit-transition: 0.4s;
 }
@@ -252,9 +252,13 @@ body {
     border: 1px solid #eaeaea;
     margin-left: 4px;
     display: block;
-    padding: 4px 40px;
+    padding: 4px 38px;
     text-align: center;
     line-height: 24px;
+}
+.list_good_addcart:hover{
+    color: #f3f3f3;
+    background-color: #e5004a;
 }
 .list_good_addfav {
     background-color: #f6f6f6;

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head lang="en">
     <meta charset="UTF-8">
@@ -7,7 +7,6 @@
     <link href="../css/common/base.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-<!-- 登录验证未完成 -->
 <div class="header2_wrap">
     <div class="header2">
         <div class="logo"><a href="javascript:;"><img src="../img/logo2.jpg" width="155" height="56"></a></div>
@@ -23,7 +22,7 @@
                 </div>
                 <form id="RegisterForm" method="post" action="">
                     <div class="login_error_section">
-                        <div class="error_tips" id=""><i></i><span>邮箱或手机号格式不正确</span></div>
+                        <div class="error_tips" id="error_tips"><i></i><span>用户名或密码错误</span></div>
                     </div>
                     <div class="login_account_total">
                         <div class="input_icon account_icon"></div>
@@ -45,7 +44,7 @@
          <input type="checkbox" value="自动登录" id="cbAutoLogin" checked="checked">&nbsp;自动登录</span>
                         <span class="login_forget"> <a href="#find_password_step1" class="fancybox login_forget_pas">忘记密码了？</a></span>
                     </div>
-                    <button id="btnRegister" class="reg_submit"><span>登  录</span></button>
+                    <input type="button" id="btnRegister" class="reg_submit" value="登 录"/>
                 </form>
             </div>
         </div>
@@ -67,5 +66,10 @@
         <a href=""><img src="../img/zhizhao.png"/></a>
     </div>
 </div>
+<script src="../lib/jquery-1.8.3.js"></script>
+<script src="../lib/jquery.cookie.js"></script>
+<script src="../lib/validate/jquery.validate.js"></script>
+<script src="../lib/validate/jquery.validate.messages_zh.js"></script>
+<script src="../js/login.js"></script>
 </body>
 </html>

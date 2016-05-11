@@ -790,6 +790,7 @@
 </div>
 <div id="footer"></div>
 <script type="text/javascript" src="../lib/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="../lib/jquery.cookie.js"></script>
 <script>
     //$("#header").load("common/header.html")
     //同步加载公用头部
@@ -798,7 +799,6 @@
         async: false,
         type: "get",
         dataType: "html",
-        async: false,
         success: function(msg) {
             $("#header").html(msg);
         }
@@ -809,12 +809,11 @@
         async: false,
         type: "get",
         dataType: "html",
-        async: false,
         success: function(msg) {
             $("#footer").html(msg);
         }
     })
 </script>
-<script type="text/javascript" src="../js/xiangqing.js"></script>
+<script type="text/javascript" src="../js/baicai.js"></script>
 </body>
 </html>

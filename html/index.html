@@ -230,42 +230,42 @@
     <div class="xianshi_zhanshi">
         <ul>
             <li>
-                <div class="xianshi_box"><a href="javascript:;"><img src="../img/xianshi1.jpg"/></a>
+                <div class="xianshi_box"><a href="goumai.html"><img src="../img/xianshi1.jpg"/></a>
 
                     <p>还有2天18小时30分30秒结束</p></div>
             </li>
             <li>
-                <div class="xianshi_box"><a href="javascript:;"><img src="../img/xianshi1.jpg"/></a>
+                <div class="xianshi_box"><a href="goumai.html"><img src="../img/xianshi1.jpg"/></a>
 
                     <p>还有2天18小时30分30秒结束</p></div>
             </li>
             <li>
-                <div class="xianshi_box"><a href="javascript:;"><img src="../img/xianshi1.jpg"/></a>
+                <div class="xianshi_box"><a href="goumai.html"><img src="../img/xianshi1.jpg"/></a>
 
                     <p>还有2天18小时30分30秒结束</p></div>
             </li>
             <li>
-                <div class="xianshi_box"><a href="javascript:;"><img src="../img/xianshi1.jpg"/></a>
+                <div class="xianshi_box"><a href="goumai.html"><img src="../img/xianshi1.jpg"/></a>
 
                     <p>还有2天18小时30分30秒结束</p></div>
             </li>
             <li>
-                <div class="xianshi_box"><a href="javascript:;"><img src="../img/xianshi1.jpg"/></a>
+                <div class="xianshi_box"><a href="goumai.html"><img src="../img/xianshi1.jpg"/></a>
 
                     <p>还有2天18小时30分30秒结束</p></div>
             </li>
             <li>
-                <div class="xianshi_box"><a href="javascript:;"><img src="../img/xianshi1.jpg"/></a>
+                <div class="xianshi_box"><a href="goumai.html"><img src="../img/xianshi1.jpg"/></a>
 
                     <p>还有2天18小时30分30秒结束</p></div>
             </li>
             <li>
-                <div class="xianshi_box"><a href="javascript:;"><img src="../img/xianshi1.jpg"/></a>
+                <div class="xianshi_box"><a href="goumai.html"><img src="../img/xianshi1.jpg"/></a>
 
                     <p>还有2天18小时30分30秒结束</p></div>
             </li>
             <li>
-                <div class="xianshi_box"><a href="javascript:;"><img src="../img/xianshi1.jpg"/></a>
+                <div class="xianshi_box"><a href="goumai.html"><img src="../img/xianshi1.jpg"/></a>
 
                     <p>还有2天18小时30分30秒结束</p></div>
             </li>
@@ -322,8 +322,8 @@
                             </div>
                         </li>
                     </ul>
-                    <a href="javascript:;" id="home_box_lunbo_prev">&lt</a>
-                    <a href="javascript:;" id="home_box_lunbo_next">&gt</a>
+                    <a href="javascript:;" class="home_box_lunbo_prev">&lt</a>
+                    <a href="javascript:;" class="home_box_lunbo_next">&gt</a>
                 </div>
             </div>
         </div>
@@ -421,8 +421,8 @@
                             </div>
                         </li>
                     </ul>
-                    <a href="javascript:;" id="home_box_lunbo_prev">&lt</a>
-                    <a href="javascript:;" id="home_box_lunbo_next">&gt</a>
+                    <a href="javascript:;" class="home_box_lunbo_prev">&lt</a>
+                    <a href="javascript:;" class="home_box_lunbo_next">&gt</a>
                 </div>
             </div>
         </div>
@@ -520,8 +520,8 @@
                             </div>
                         </li>
                     </ul>
-                    <a href="javascript:;" id="home_box_lunbo_prev">&lt</a>
-                    <a href="javascript:;" id="home_box_lunbo_next">&gt</a>
+                    <a href="javascript:;" class="home_box_lunbo_prev">&lt</a>
+                    <a href="javascript:;" class="home_box_lunbo_next">&gt</a>
                 </div>
             </div>
         </div>
@@ -619,8 +619,8 @@
                             </div>
                         </li>
                     </ul>
-                    <a href="javascript:;" id="home_box_lunbo_prev">&lt</a>
-                    <a href="javascript:;" id="home_box_lunbo_next">&gt</a>
+                    <a href="javascript:;" class="home_box_lunbo_prev">&lt</a>
+                    <a href="javascript:;" class="home_box_lunbo_next">&gt</a>
                 </div>
             </div>
         </div>
@@ -718,8 +718,8 @@
                             </div>
                         </li>
                     </ul>
-                    <a href="javascript:;" id="home_box_lunbo_prev">&lt</a>
-                    <a href="javascript:;" id="home_box_lunbo_next">&gt</a>
+                    <a href="javascript:;" class="home_box_lunbo_prev">&lt</a>
+                    <a href="javascript:;" class="home_box_lunbo_next">&gt</a>
                 </div>
             </div>
         </div>
@@ -787,6 +787,7 @@
 </div>
 <div id="footer"></div>
 <script type="text/javascript" src="../lib/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="../lib/jquery.cookie.js"></script>
 <script>
     //$("#header").load("common/header.html")
     //同步加载公用头部
@@ -795,7 +796,6 @@
         async: false,
         type: "get",
         dataType: "html",
-        async: false,
         success: function(msg) {
             $("#header").html(msg);
         }
@@ -806,7 +806,6 @@
         async: false,
         type: "get",
         dataType: "html",
-        async: false,
         success: function(msg) {
             $("#footer").html(msg);
         }

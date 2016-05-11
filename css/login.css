@@ -144,6 +144,9 @@
     cursor: pointer;
     padding: 4px 10px;
     text-align: center;
+    color: #FFF;
+    line-height: 36px;
+    font-size: 20px;
 }
 .reg_submit span {
     color: #FFF;

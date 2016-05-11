@@ -28,7 +28,7 @@
 .top {
     background-color: #f3f3f3;
     padding: 2px 0;
-    color: #dbdbdb;
+    color: #666;
 }
 
 .wrap_1200 {
@@ -69,7 +69,7 @@
 }
 
 .top_nav_menu a {
-    color: #dbdbdb;
+    color: #666;
 }
 
 .top_nav_menu a span {
@@ -99,6 +99,7 @@
 .middle {
     height: 80px;
     padding: 35px 0 18px;
+    border-bottom: 1px solid #e5004a;
 }
 
 .wrap_middle {
@@ -182,7 +183,11 @@
 .hot_search li a:hover {
     color: #e5004a;
 }
-
+.gouwuche_box_a{
+    display: block;
+    float: left;
+    height: 40px;
+}
 .gouwuche_box {
     float: left;
     height: 40px;

@@ -437,7 +437,7 @@
     overflow: hidden;
 }
 
-#home_box_lunbo_prev {
+.home_box_lunbo_prev {
     width: 30px;
     line-height: 50px;
     position: absolute;
@@ -449,7 +449,7 @@
     text-align: center;
 }
 
-#home_box_lunbo_next {
+.home_box_lunbo_next {
     width: 30px;
     line-height: 50px;
     position: absolute;
@@ -595,8 +595,6 @@
     width: 289px;
     height: 125px;
 }
-
-
 
 
 

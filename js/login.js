@@ -1,11 +1,12 @@
 /**
- * Created by Administrator on 2016/5/9.
+ * Created by Administrator on 2016/5/11.
  */
 $(window).load(function () {
     $('#btnRegister').click(function () {
             var username = $('#new_account').val();
             var password = $('#reg_password').val();
-            if(!register(username, password)){
+            var boo = login(username, password);
+            if(!boo){
                 $('#error_tips').show();
                 return false;
             }else{
@@ -21,28 +22,18 @@ $(window).load(function () {
     )
 })
 
-function register(arg0, arg1) {
-    if (arg0) {
-        return true;
-    } else if (arg1) {
-        return true;
-    } else {
+function login(arg0, arg1) {
+    var user = $.cookie('user');
+    if(!user){
         return false;
     }
+    var aInfo = user.split("&");
+    if(arg0!=aInfo[0]){
+        return false;
+    }else if(arg1!=aInfo[1]){
+        return false;
+    }
+    else {
+        return true;
+    }
 }
-/*
- function register(){
- $("#RegisterForm").validate({
- rules: {
- new_account: "required",
- reg_password: {
- required: true,
- minlength: 5
- }
- },
- messages: {
- new_account: "请输入用户名",
- reg_password: "请输入密码"
- }
- });
- }*/

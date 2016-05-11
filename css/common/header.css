@@ -183,7 +183,11 @@
 .hot_search li a:hover {
     color: #e5004a;
 }
-
+.gouwuche_box_a{
+    display: block;
+    float: left;
+    height: 40px;
+}
 .gouwuche_box {
     float: left;
     height: 40px;

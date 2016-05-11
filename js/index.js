@@ -2,7 +2,9 @@
  * Created by Administrator on 2016/5/3.
  */
 $(window).load(function () {
-    //console.log($(window).width())
+    //获取登录状态和购物车状态
+    getLoginState();
+    initShowGouWuCheNum();
     guangGaoClose();
     topMenu();
     lunbo();
@@ -11,6 +13,35 @@ $(window).load(function () {
     zhengDianQiangGouJinDu();
     play2();
 });
+function loginout(){
+    $('#loginout').click(function(){
+        //$.cookie("user", null, {expires: -1, path: '/'});
+        //$.cookie("carts", null, {expires: -1, path: '/'});
+        $('.login_box').html('欢迎来到速普商城！ 请 [<a href="login.html" target="_blank"> 登录 </a>] [<a href="register.html"'+
+        'target="_blank"> 免费注册 </a>]');
+    })
+}
+function getLoginState(){
+    var user = $.cookie('user');
+    if(user){
+        var aInfo = user.split("&");
+        $('.login_box').html('Hi![<a id="my" href="javascript:;">'+aInfo[0]+'</a>]&nbsp;欢迎来到速普商城！&nbsp;[<a id="loginout" href="javascript:;">退出</a>]')
+        loginout();
+    }
+}
+function initShowGouWuCheNum(){
+    $('.gouwunum span').text(getGouWuCheNum());
+}
+function getGouWuCheNum() {
+    //从cookie获取
+    var carts =  $.cookie('carts') ? $.cookie('carts'):"{}";
+    var goods = JSON.parse(carts);
+    var num = 0;
+    for (var i in goods) {
+        num += goods[i].num;
+    }
+    return num;
+}
 //function left_menu(){
 //    $('.headnav_left_down ul li').each(function(i){
 //        $(this).mouseover(function(){
@@ -26,7 +57,7 @@ $(window).load(function () {
 function zhengDianQiangGouJinDu(){
     //var oList = $('#zhengdian_list ul');
     var aLi = $('#zhengdian_list ul li');
-    console.log(aLi.children().children().eq(0));
+    //console.log(aLi.children().children().eq(0));
     var fengqiang = null;
     var jindu_point = null;
     var jindu_date = null;
@@ -264,11 +295,11 @@ function play() {
 }
 
 function play2(){
-    var oWrap = $('#home_box_lunbo_wrap');
-    var oList = $('#home_box_lunbo_list');
-    var aList = $('#home_box_lunbo_list li');
-    var oPrev = $('#home_box_lunbo_prev');
-    var oNext = $('#home_box_lunbo_next');
+    var oWrap = $('.home_box_lunbo_wrap');
+    var oList = $('.home_box_lunbo_list');
+    //var aList = $('#home_box_lunbo_list li');
+    var oPrev = $('.home_box_lunbo_prev');
+    var oNext = $('.home_box_lunbo_next');
     var timer = null;
 
     var iNow = 0;
